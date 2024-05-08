@@ -1,6 +1,9 @@
-﻿namespace Clean.Application
+﻿using System.Reflection;
+
+namespace Clean.Application
 {
     public static class AssemblyReference
     {
+        public static readonly Assembly Assembly = typeof(AssemblyReference).Assembly;
     }
 }
